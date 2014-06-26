@@ -51,6 +51,14 @@
     padding-right: 20px;
 }
 
+.contacts-phone-and-mail{
+    width: 310px;
+}
+
+.contacts-office{
+    width: 516px;
+}
+
 #block-contacts .contact-wrapper{
     display: table;
     padding-bottom: 20px;
