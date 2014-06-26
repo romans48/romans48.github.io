@@ -40,7 +40,7 @@ define([
             if(this.isTouchPageTop(offset)){
                 offset -= this.$el.find('.menu').height();
             }
-            $('body').animate({scrollTop:offset}, 1000)
+            $('html, body').animate({scrollTop:offset}, 1000)
         },
         onNavigate: function(event){
             destSelector = $(event.target).attr('navdest');
