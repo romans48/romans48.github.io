@@ -38,7 +38,6 @@ define([
             var $el = $(selector).first();
             var offset = $el.offset().top;
             if(this.isTouchPageTop(offset)){
-                console.debug('touch');
                 offset -= this.$el.find('.menu').height();
             }
             $('body').animate({scrollTop:offset}, 1000)
