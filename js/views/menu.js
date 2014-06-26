@@ -16,7 +16,8 @@ define([
             'click [navdest]': 'onNavigate'
         },
         render: function(){
-            this.$el.html(template)
+            this.$el.html(template);
+            this.onScroll()
         },
         isTouchPageTop: function(scrollOffset){
             if(!scrollOffset){
@@ -40,7 +41,7 @@ define([
                 console.debug('touch');
                 offset -= this.$el.find('.menu').height();
             }
-            $('body').animate({scrollTop:offset}, 500)
+            $('body').animate({scrollTop:offset}, 1000)
         },
         onNavigate: function(event){
             destSelector = $(event.target).attr('navdest');

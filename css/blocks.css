@@ -1,0 +1,66 @@
+.content-wrapper{
+    padding: 10px;
+}
+
+.content{
+    color: #ffffff;
+    font: 16px OpenSansRegular;
+    line-height: 2;
+}
+
+.content ul{
+    list-style: circle;
+}
+
+.content li{
+    margin-left: 20px;
+}
+
+.content p{
+    padding-top: 20px;
+}
+
+.content-header{
+    font: 30px OpenSansSemiboldItalic;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#block-about{
+    background-color: rgba(6, 162, 62, 0.5);
+}
+
+#block-services{
+    background-color: rgba(51, 73, 93, 0.5);
+}
+
+#block-info{
+    background-color: rgba(121, 68, 0, 0.5);
+}
+
+#block-contacts{
+    background-color: rgba(26, 187, 129, 0.5);
+}
+
+.contacts-wrapper{
+    display: table;
+}
+
+.contacts-cell{
+    display: table-cell;
+    padding-right: 20px;
+}
+
+#block-contacts .contact-wrapper{
+    display: table;
+    padding-bottom: 20px;
+}
+
+#block-contacts .contect-label{
+    display: table-cell;
+}
+
+#block-contacts .contact-content{
+    padding-left: 10px;
+    display: table-cell;
+}

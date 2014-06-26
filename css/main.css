@@ -27,12 +27,13 @@ html, body{
 }
 
 .top-background{
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg.jpg) center center no-repeat fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
     position: fixed;
     z-index: 1;
+    min-width: 1210px;
 }
 
 .top-background-margin{
@@ -45,7 +46,10 @@ html, body{
     z-index: 3;
     background: url(../img/bg-blur.jpg) center center no-repeat fixed;
     background-size: cover;
+    min-width: 1210px;
+
 }
+
 .menu-render-place{
     height: 85px;
 }
@@ -65,24 +69,8 @@ html, body{
     top: 0;
 }
 
-.transparent-block{
-    opacity: 0.6;
-}
-
-.white-block{
-    background-color: #ffffff;
-}
-
-.green-block{
-    background-color: #008000;
-}
-
-.blue-block{
-    background-color: #2d7183;
-}
-
 .temp-block{
-    height: 500px;
+    min-height: 500px;
 }
 
 .menu-left{
@@ -135,6 +123,7 @@ html, body{
 .menu-item-active{
     background-color: #334961;
 }
+
 .quote{
     width: 800px;
     position: relative;
